@@ -44,7 +44,8 @@ header nav ul li {
 }
 
 header li:last-of-type::after {
-
+    content: "\25bc";
+    padding-left: 4px;
 }
 
 header nav ul li:hover {
@@ -116,4 +117,18 @@ article p {
     line-height: 26px;
     text-align: center;
     margin: 0px auto;
+}
+
+footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.sticky_footer {
+    position: sticky;
+    top: 100%;
+    height: 80px;
+    background-color: rgb(40, 37, 37);
+
 }
